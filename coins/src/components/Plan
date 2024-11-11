@@ -1,0 +1,37 @@
+page 1
+nav - home / intro (hero)
+COINS
+Done top 20.
+Can then do some filters - and pass through the updated data!
+
+Onclick of the Row - then push to new location /ticker
+if 24hr change is positive or negative, add colours!
+
+INFO for specific coin
+Image = image.large
+market cap rank = .market_cap_rank
+market cap = .market_cap.(currency)
+market_cap_change_percentage_24h:
+
+current price in USD / EUR / GBP = .market_data.current_price.(usd eur gbp)
+24h High in USD EUR GBO = .high_24h.(currency)
+24 low = .low_24h.(currency)
+
+price_change_percentage_1h
+price_change_percentage_24h: 0.21219,
+price_change_percentage_7d: -6.46963,
+price_change_percentage_14d: -7.60674,
+price_change_percentage_30d: -0.24867,
+price_change_percentage_60d: -19.81021,
+price_change_percentage_200d: 4.88759,
+price_change_percentage_1y: 16.21454,
+
+public_interest_stats: {
+alexa_rank: 23055,
+bing_matches: 31700000
+}
+
+
+DO USD / EUR / GBP
+Sort by Volume, 
+click on each coin, get more info.  Use the ID / name part with the get request

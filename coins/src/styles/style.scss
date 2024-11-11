@@ -1,0 +1,233 @@
+$link-text-color: rgb(102, 153, 204);
+$header-background-color:rgb(6,1,41);
+
+*{
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background-color: $header-background-color;
+}
+.section{
+  padding-top: 85px;
+}
+.modalportfolio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.coindropdown{
+  width: 300px;
+
+}
+
+
+.bm-burger-button {
+  position: fixed;
+  width: 30px;
+  height: 25px;
+  left: 30px;
+  top: 30px;
+  
+}
+.bm-burger-bars{
+  background-color:$link-text-color;
+  // border: 0.5px solid $header-background-color
+}
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+.bm-cross {
+  background: $header-background-color;
+}
+.bm-menu {
+  background: rgba(255,255,255,0.95);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  padding-top: 80px;
+}
+.bm-item-list {
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+}
+
+/* Individual item */
+.bm-item {
+  // display: flex;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.link{
+  color: $link-text-color;
+  padding: 7px;
+  margin: 5px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  // text-align: center;
+  // flex-direction: row;
+
+}
+.link:hover {
+  color: $header-background-color;
+  // background-color: rgba(255,255,255,0.15);
+}
+.Lazy-hero h1{
+  display: flex;
+  font-family: 'Questrial', sans-serif;
+  color: white;
+  font-size: 46px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+#coin-body {
+  max-height: 100%;
+  background-color: $header-background-color;
+}
+.background-dark{
+  background-color: $header-background-color;
+}
+p{
+  font-family: 'Questrial', sans-serif;
+  color: $header-background-color;
+  margin: 1px 0px;
+  font-weight: 500;
+}
+.background-white {
+  background-color: rgba(255,255,255,0.95)
+}
+.column:hover {
+  // background-color: rgba(6,1,41, 0.1);
+}
+tbody {
+  tr:hover{
+    background-color: $link-text-color;
+    color: white;
+    
+  }
+}
+table {
+  font-size: 14px;
+}
+tspan, .recharts-legend-item-text {
+  font-size: 12px;
+}
+.graph-div {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+.title {
+  font-family: 'Questrial', sans-serif;
+  color: $header-background-color;
+  font-size: 20px;
+}
+.align-right{
+  float: right;
+  font-weight: 400;
+}
+.title2{
+  font-family: 'Questrial', sans-serif;
+  background-color: $header-background-color;
+  color: white;
+  font-size: 18px;
+  padding: 5px 8px;
+  margin: 5px 0px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+.has-text-centered{
+  img{
+    margin: 15px 15px;
+  }
+}
+.coin-title {
+  font-family: 'Questrial', sans-serif;
+  color: white;
+  font-size: 46px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin: 0px 0 10px 0px;
+}
+.register-title {
+    font-family: 'Questrial', sans-serif;
+    color: $header-background-color;
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 0px 0 10px 0px;
+
+}
+.coin-subtitle{
+  font-family: 'Questrial', sans-serif;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 0 10px 0;
+  padding: 0 5px;
+}
+
+.link2{
+  color: $link-text-color;
+  padding: 5px;
+  margin: 5px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+.link2:hover {
+  color: white;
+  background-color: rgba(255,255,255,0.15);
+}
+.news-feed{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card{
+  height: 150px;
+  width: 200px;
+  margin: 15px;
+
+  .card-footer{
+    height: 20%;
+    background-color: $link-text-color;
+    color: white;
+  }
+  .card-content{
+    height: 80%;
+  }
+  .title{
+    color: $header-background-color;
+    font-size: 14px
+  }
+}
+.label {
+  color: $link-text-color;
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.button {
+  background: rgba(255,255,255,0.95);
+  color: $header-background-color;
+  padding: 10px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 15px 0;
+
+
+}
